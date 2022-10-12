@@ -74,7 +74,7 @@ namespace Server
                     }
 
                     Console.WriteLine("Text received -> {0} ", data);
-                    byte[] message = Encoding.ASCII.GetBytes("Test Server");
+                    byte[] message = Encoding.ASCII.GetBytes("Message Recieved :)");
 
                     // Send a message to Client
                     // using Send() method
